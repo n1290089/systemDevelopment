@@ -47,6 +47,29 @@
 				<td><input type="submit" value="追加"></td>
 			</tr>
 		</table>
+		</form>
+
+	<hr>
+	<h2>データ更新</h2>
+	<form action="/update" method="post">
+		<table>
+			<tr>
+				<td>ID</td>
+				<td><input type="text" name="upsateId" /></td>
+			</tr>
+			<tr>
+				<td>名前</td>
+				<td><input type="text" name="updateName" /></td>
+			</tr>
+			<tr>
+				<td>写真</td>
+				<td><input type="text" name="updatePicture" /></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="更新"></td>
+			</tr>
+		</table>
 	</form>
 </body>
 </html>
